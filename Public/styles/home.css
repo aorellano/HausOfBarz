@@ -1,3 +1,91 @@
 .navbar-custom {
     background: rgb(24, 24, 24) !important;
 }
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-image: url("../images/hero.png");
+    background-repeat: no-repeat;
+}
+
+.row {
+    position: relative;
+    top: 35%;
+}
+
+.title {
+    font-size: 50px;
+    color: white;
+    letter-spacing: 20px;
+   
+}
+
+.sub-header {
+    margin-top: 30px;
+    color: white;
+    letter-spacing: 4px;
+}
+
+@keyframes first-slide-in{
+    from{
+        margin-left: -100%;
+        color: transparent;
+    }
+
+    to {
+        margin-left: 0%;
+        color: white;
+    }
+}
+
+@keyframes second-slide-in {
+    from{
+        margin-left: -150%;
+        color: transparent;
+    }
+
+    to {
+        margin-left: 0%;
+        color: white;
+    }
+}
+
+@keyframes third-slide-in {
+    from{
+        margin-left: -200%;
+        color: transparent;
+    }
+
+    to {
+        margin-left: 0%;
+        color: white;
+    }
+}
+
+.first-line {
+    text-indent: -8em;
+    animation-name: first-slide-in;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+}
+
+.second-line {
+    animation-name: second-slide-in;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+}
+
+.third-line {
+    text-indent: 8em;
+    animation-name: third-slide-in;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+}
+
+.highlight-word {
+    color: yellow;
+}
+
+
