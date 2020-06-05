@@ -48,5 +48,25 @@
             </div>
         </div>  
     </div>
+    <!-- hero description -->
+    <div class="hero-description container-fluid">
+        <div class="section2-row row align-items-center">
+            <div class="section2-col-1 col-sm align-self-center">
+                <h6>Dedicate yourself to doing well for yourself 
+                and for others whether it’s the smallest gesture 
+                or the biggest adventure.
+
+                BE bold, classic, fearless, lion-hearted. 
+                BE bigger than life.</h6>
+                <button>Learn More</button>
+            </div>
+            <div class="section2-col-2 col-sm align-self-center">
+                <img src="../images/blackwhite.jpg" class="section2-img">
+            </div>
+        </div>
+    </div>
+
+
+
   </body>
 </html>

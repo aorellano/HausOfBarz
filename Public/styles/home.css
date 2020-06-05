@@ -88,4 +88,30 @@
     color: yellow;
 }
 
+.hero-description {
+    background-color: rgb(20, 20, 20);
+}
+
+.section2-img {
+    height: 200px;
+    width: 100%;
+    object-fit: contain;
+}
+
+.section2-row {
+}
+
+.section2-col-1 {
+    margin: 50px 50px 50px 50px;
+    color: white;
+    text-align: center;
+    background-color: blue;
+}
+
+.section2-col-2 {
+    margin: 50px 50px 50px 50px;
+    text-align: center;
+    background-color: purple;
+}
+
 
