@@ -49,24 +49,27 @@
         </div>  
     </div>
     <!-- hero description -->
-    <div class="hero-description container-fluid">
+    <div class="overview container-fluid">
         <div class="section2-row row align-items-center">
-            <div class="section2-col-1 col-sm align-self-center">
-                <h6>Dedicate yourself to doing well for yourself 
-                and for others whether it’s the smallest gesture 
-                or the biggest adventure.
+            <div class="overview-description col-lg align-self-center">
+                <h6 class="paragraph-section">Dedicate yourself to doing well for yourself<br> 
+                and for others whether it’s the smallest gesture<br> 
+                or the biggest adventure.<br><br><br> 
 
-                BE bold, classic, fearless, lion-hearted. 
-                BE bigger than life.</h6>
-                <button>Learn More</button>
+                BE bold, classic, fearless, lion-hearted.<br>
+                BE bigger than life.</h6><br>
+                <button type="button" class="btn btn-outline-secondary">Learn More</button>
             </div>
-            <div class="section2-col-2 col-sm align-self-center">
-                <img src="../images/blackwhite.jpg" class="section2-img">
+            <div class="overview-imgview col-lg align-self-center">
+                <img src="../images/blackwhite.jpg" class="overview-img">
             </div>
         </div>
     </div>
-
-
-
+    <!-- hob collection -->
+    <div class="hob-collection container-fluid">
+        <div class="title-row row-md">
+                <h1 class="collection-title">HOB COLLECTION</h1>
+        </div>
+    </div>
   </body>
 </html>

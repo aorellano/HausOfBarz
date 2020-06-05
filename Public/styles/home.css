@@ -88,30 +88,49 @@
     color: yellow;
 }
 
-.hero-description {
+.overview {
     background-color: rgb(20, 20, 20);
 }
 
-.section2-img {
-    height: 200px;
+.overview-img {
+    height: 300px;
     width: 100%;
-    object-fit: contain;
+    object-fit: cover;
+    border-radius: 25px;
 }
 
-.section2-row {
-}
-
-.section2-col-1 {
-    margin: 50px 50px 50px 50px;
+.overview-description {
     color: white;
     text-align: center;
+    margin-top: 40px;
+}
+
+.overview-imgview {
+    margin: 50px 50px 50px 50px;
+    text-align: center; 
+}
+
+.paragraph-section {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.hob-collection {
+    height: 60vh;
+    width: 100%;
+    background-image: url("../images/pameandfriends.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title-row {
     background-color: blue;
 }
 
-.section2-col-2 {
-    margin: 50px 50px 50px 50px;
+.collection-title {
     text-align: center;
-    background-color: purple;
+    color: white;
+    letter-spacing: 2px;
 }
 
 
