@@ -124,7 +124,8 @@
 }
 
 .title-row {
-    background-color: blue;
+    position: relative;
+    top: 50%;
 }
 
 .collection-title {
