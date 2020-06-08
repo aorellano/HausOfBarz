@@ -100,7 +100,6 @@
 }
 
 .overview-description {
-    color: white;
     text-align: center;
     margin-top: 40px;
 }
@@ -111,6 +110,7 @@
 }
 
 .paragraph-section {
+    color: white;
     font-size: 20px;
     line-height: 30px;
 }
@@ -132,6 +132,40 @@
     text-align: center;
     color: white;
     letter-spacing: 2px;
+}
+
+.hob-description {
+    background-color: rgb(20, 20, 20);
+
+}
+
+.hob-imgs {
+    margin: 50px 50px 10px 10px;
+    padding-bottom: 50px;
+}
+
+.description-paragraph {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.first-img-col{
+    margin-left: 15px;
+}
+
+
+.second-img-col{
+    margin-left: -15px;
+
+}
+
+.product-img {
+    width: 100%;
+    height: 50%;
+    margin-top: 10px;
 }
 
 

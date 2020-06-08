@@ -71,5 +71,33 @@
                 <h1 class="collection-title">HOB COLLECTION</h1>
         </div>
     </div>
+    <!-- hob collection description -->
+    <div class="hob-collection-sub container-fluid">
+        <div class="row hob-description align-items-center">
+            <div class="col-lg hob-imgs align-self-center">
+                <div class="row">
+                    <div class="col first-img-col">
+                        <img src="../images/pamhat.png" class="product-img">
+                        <img src="../images/pamboyfriend.png"class="product-img">
+                    </div>
+                    <div class="col second-img-col ">
+                        <img src="../images/pamgirlfriend.png"class="product-img">
+                        <img src="../images/pam.png"class="product-img">
+                    </div>
+                </div>
+            </div> 
+    
+            <div class="col-lg description-paragraph align-self-center">
+                <h6 class="paragraph-section">Become a part of a global movement that strives<br>
+                to donate to current social, enviromental, and health<br>
+                issues. With every garment purchased you have the<br>
+                oppurtunity to create change.<br><br><br>
+
+                YOU have a voice. You can vote to decide what we<br>
+                donate to monthly.</h6><br>
+                <button type="button" class="btn btn-outline-secondary">Browse Now</button>
+            </div>
+        </div>
+    </div>
   </body>
 </html>
