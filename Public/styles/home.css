@@ -1,3 +1,6 @@
+body {
+    background: rgb(24, 24, 24) !important;
+}
 .navbar-custom {
     background: rgb(24, 24, 24) !important;
 }
@@ -88,9 +91,6 @@
     color: yellow;
 }
 
-.overview {
-    background-color: rgb(20, 20, 20);
-}
 
 .overview-img {
     height: 300px;
@@ -134,15 +134,9 @@
     letter-spacing: 2px;
 }
 
-.hob-description {
-    background-color: rgb(20, 20, 20);
-
-}
-
-.hob-imgs {
+.imgs {
     margin: 50px 50px 10px 40px;
     padding-bottom: 50px;
-
 }
 
 .description-paragraph {
@@ -160,7 +154,6 @@
 
 .second-img-col{
     margin-left: -15px;
-
 }
 
 .product-img {
@@ -168,5 +161,27 @@
     height: 50%;
     margin-top: 10px;
 }
+
+.workout {
+    height: 60vh;
+    width: 100%;
+    background-image: url("../images/workout.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.embed-responsive {
+    margin: 0px 20px 30px 20px;
+    border-radius: 20px;
+}
+
+.motivation {
+    height: 60vh;
+    width: 100%;
+    background-image: url("../images/vegasbaby.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 
 

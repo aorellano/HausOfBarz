@@ -51,7 +51,7 @@
     <!-- hero description -->
     <div class="overview container-fluid">
         <div class="section2-row row align-items-center">
-            <div class="overview-description col-lg align-self-center">
+            <div class="description-paragraph col-lg align-self-center">
                 <h6 class="paragraph-section">Dedicate yourself to doing well for yourself<br> 
                 and for others whether it’s the smallest gesture<br> 
                 or the biggest adventure.<br><br><br> 
@@ -74,7 +74,7 @@
     <!-- hob collection description -->
     <div class="hob-collection-sub container-fluid">
         <div class="row hob-description align-items-center">
-            <div class="col-lg hob-imgs align-self-center">
+            <div class="col-lg imgs align-self-center">
                 <div class="row">
                     <div class="col first-img-col">
                         <img src="../images/pamhat.png" class="product-img">
@@ -96,6 +96,56 @@
                 YOU have a voice. You can vote to decide what we<br>
                 donate to monthly.</h6><br>
                 <button type="button" class="btn btn-outline-secondary">Browse Now</button>
+            </div>
+        </div>
+    </div>
+    <!-- workout -->
+    <div class="workout container-fluid">
+        <div class="title-row row-md">
+                <h1 class="collection-title">WORKOUT WITH US</h1>
+        </div>
+    </div>
+    <!-- workout description -->
+    <div class="workout-description container-fluid">
+        <div class="row align-items-center">
+            <div class="col-lg description-paragraph align-self-center">
+                <h6 class="paragraph-section">Take a journey with us in pushing<br>
+                past limitations. Get out of your<br>
+                comfort zone and jump into a<br>
+                challenge!<br><br><br>
+                YOU GOT THIS!
+                </h6>
+            </div>
+            <div class="col-lg imgs">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/EYLUZUyfios" allowfullscreen></iframe>
+                </div>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/aQIIc-nar0Y" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- motivation -->
+    <div class="motivation container-fluid">
+        <div class="title-row row-md">
+                <h1 class="collection-title">MOTIVATION</h1>
+        </div>
+    </div>
+    <!-- motivation description -->
+    <div class="overview-description container-fluid">
+        <div class="row align-items-center">
+            <div class="col-lg description-paragraph">
+                <h6 class="paragraph-section">... take your weaknesses and<br>
+                make them your strengths. Stop holding<br>
+                back. Life doesn't stop for anyone.<br>
+                Go and Live Your Fate Epically.<br><br><br>
+                -Anonymous
+                </h6><br>
+                <button type="button" class="btn btn-outline-secondary">Read more</button>
+            </div>
+            <div class="col-lg overview-imgview">
+                <img src="../images/encouragment.png" class="overview-img">
             </div>
         </div>
     </div>
