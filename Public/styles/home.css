@@ -183,5 +183,19 @@ body {
     background-size: cover;
 }
 
+.footer-col-1 {
+    color:white;
+    text-align: center;
+}
+
+.footer-col-2 {
+    color:white;
+    text-align: center;
+}
+
+.footer-col-3 {
+    color:white;
+}
+
 
 
