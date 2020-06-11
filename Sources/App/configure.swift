@@ -1,4 +1,4 @@
-import FluentSQLite
+import FluentMySQL
 import Leaf
 import Vapor
 
@@ -8,7 +8,7 @@ public func configure(_ config: inout Config, _ env: inout Environment, _ servic
     try services.register(LeafProvider())
     config.prefer(LeafRenderer.self, for: ViewRenderer.self)
     
-    try services.register(FluentSQLiteProvider())
+    try services.register(FluentMySQLProvider())
     
     // Register routes to the router
     let router = EngineRouter.default()
@@ -20,17 +20,23 @@ public func configure(_ config: inout Config, _ env: inout Environment, _ servic
     middlewares.use(FileMiddleware.self) // Serves files from `Public/` directory
     middlewares.use(ErrorMiddleware.self) // Catches errors and converts to HTTP response
     services.register(middlewares)
-
-    // Configure a SQLite database
-    let sqlite = try SQLiteDatabase(storage: .memory)
-
-    // Register the configured SQLite database to the database config.
+    
+    //configure database
     var databases = DatabasesConfig()
-    databases.add(database: sqlite, as: .sqlite)
+    
+    let databaseConfig = MySQLDatabaseConfig(
+        hostname: "localhost",
+        username: "vapor",
+        password: "password",
+        database: "hob"
+    )
+    
+    let database = MySQLDatabase(config: databaseConfig)
+    databases.add(database: database, as: .mysql)
     services.register(databases)
-
-    // Configure migrations
+    
     var migrations = MigrationConfig()
-    migrations.add(model: Todo.self, database: .sqlite)
+    migrations.add(model: Category.self, database: DatabaseIdentifier<Category.Database>.mysql)
     services.register(migrations)
+
 }

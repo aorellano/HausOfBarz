@@ -114,7 +114,8 @@
                 comfort zone and jump into a<br>
                 challenge!<br><br><br>
                 YOU GOT THIS!
-                </h6>
+                </h6><br>
+                <button type="button" class="btn btn-outline-secondary">View More</button>
             </div>
             <div class="col-lg imgs">
                 <div class="embed-responsive embed-responsive-16by9">
