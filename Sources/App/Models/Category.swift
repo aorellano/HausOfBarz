@@ -5,23 +5,22 @@
 //  Created by Alexis Orellano on 6/10/20.
 //
 
+import FluentSQLite
 import Vapor
-import FluentMySQL
 
-final class Category: Codable {
-    var id: Int?
+final class Category: Content {
+    var id: UUID?
     var name: String
-    var description: String
-    var thumbnail: String
+//    var description: String
+//    var thumbnail: String
     
-    init(name: String, description: String, thumbnail: String) {
+    init(name: String) {
         self.name = name
-        self.description = description
-        self.thumbnail = thumbnail
+//        self.description = description
+//        self.thumbnail = thumbnail
     }
 }
 
-extension Category: MySQLModel {}
+extension Category: SQLiteUUIDModel {}
 extension Category: Migration {}
-extension Category: Content {}
 extension Category: Parameter {}
