@@ -35,6 +35,6 @@ public func configure(_ config: inout Config, _ env: inout Environment, _ servic
     
     var migrationConfig = MigrationConfig()
     migrationConfig.add(model: Category.self, database: DatabaseIdentifier<Category.Database>.sqlite)
-    migrationConfig.add(migration: PopulateCategories.self, database: DatabaseIdentifier<PopulateCategories.Database>.sqlite)
+//    migrationConfig.add(migration: PopulateCategories.self, database: DatabaseIdentifier<PopulateCategories.Database>.sqlite)
     services.register(migrationConfig)
 }
